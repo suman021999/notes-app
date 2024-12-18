@@ -1,0 +1,89 @@
+.diglog{
+    position: absolute;
+    top: 15rem;
+    left: 30rem;
+    padding: 30px;
+    height: 250px;
+    width: 540px;
+    /* box-shadow: 0 0 20px 10px #0000007d; */
+    background: white;
+    border: 2px solid #63c4d1;
+    font-family: "Roboto";
+   
+}
+.diglog:focus {
+    background-color: yellow;
+  }
+
+.crp{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.fbox{
+    display: flex;
+    
+}
+.gname{
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.colorbox{
+    font-size: 16px;
+    font-weight: 500;
+}
+.input{
+    width: 15vw;
+    border-radius: 35px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.flb{
+    display: flex;
+    gap: 20px;
+}
+.cl1,.cl2,.cl3,.cl4,.cl5,.cl6{
+    border-radius: 35px;
+    height: 40px;
+    width: 40px;
+}
+.cl1{
+    background-color: #B38BFA;
+}
+.cl2{
+    background-color: #FF79F2;
+}
+.cl3{
+    background-color: #43E6FC;
+}
+.cl4{
+    background-color: #F19576;
+}
+.cl5{
+    background-color: #0047FF;
+}
+.cl6{
+    background-color: #6691FF;
+}
+.create{
+    display: flex;
+    align-items: center;
+    background: blue;
+    font-family: "Roboto";
+    color: white;
+    border-radius: 35PX;
+    padding: 20px;
+    height: 10px !important;
+    width: 90px;
+    outline: none;
+    margin-left: 24rem;
+    margin-top: 15px;
+}

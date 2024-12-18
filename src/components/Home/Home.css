@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapee{
+    display: flex;
+    flex-direction:column;
+}
+.main{
+    
+    height: 90vh;
+    width: 80vw;
+    background: #DAE5F5;
+    
+}
+
+.box{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 400px;
+    margin-top:10rem;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: "Roboto";
+    width: 40%;
+}
+.chenge{
+    text-align: center;
+    margin-top:12rem;
+}

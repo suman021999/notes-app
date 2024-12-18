@@ -1,0 +1,37 @@
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    width: 100%;
+    background: #001F8B;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: #78aacb;
+    border-radius: 35px;
+    box-shadow: 0px 0px 8px 0px #696565;
+    margin: 0 0px 0 20px;
+}
+.con,.con2{
+    color: white;
+}
+.con2{
+    font-weight: 400;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.wrapr{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    font-family: "Roboto";
+}
